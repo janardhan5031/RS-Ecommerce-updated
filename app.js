@@ -50,7 +50,13 @@ app.use(shopRouters);
 app.use(adminRouters);
 app.use(cartRouters);
 app.use(OrderRouters);
+
+app.use((req,res,next) =>{
+    console.log(req.url);
+    res.sendFile(path.join(__dirname,`public/frontEnd/${req.url}`));
+})
 app.use(errorRouter.get404);
+
 
 // creating associations (or) relations b/w tables in database
 product.belongsTo(User,{constraints:true, onDelete:'CASCADE'});

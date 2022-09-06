@@ -1,0 +1,54 @@
+.logo{
+    margin: .5rem;
+    display: inline-block;
+}
+.logo div,h2,h1, p{
+    margin: 0;
+    padding: 0;
+}
+.hdr_search_box{
+    margin: 10px;
+}
+.hdr_search_box  form{
+    display: flex;
+    margin: 0;
+    padding:0;
+}
+.hdr_search_box  form input, button{
+    border: none;
+    border-radius: 5px;
+}
+.hdr_search_box form button{
+    cursor: pointer;
+}
+
+/* home page render */
+.home_page{
+    align-items: center;
+    margin: 2rem;
+    padding: 0;
+    height: 20rem;
+}
+.home_page p{
+    text-align: center;
+    color: rebeccapurple;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+/* about us page */
+.about_us_page{
+    align-items: center;
+    margin: 2rem;
+    padding: 0;
+    height: 20rem;
+}
+.about_us_page p{
+    text-align: center;
+    color: rebeccapurple;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+
+
